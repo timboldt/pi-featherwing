@@ -19,7 +19,7 @@ I connected it as follows. In the table, I use the [GPIO/BCM pin names](https://
 | Aref <- +3V        |                 |
 | GND - GND          |                 |
 | A0 <-> GPIO 20     |       (NC) VBAT |
-| A1 <-> GPIO 21     |    GPIOxx -> EN |
+| A1 <-> GPIO 21     |   GPIO 27 -> EN |
 | A2 <-> GPIO 22     |       (NC) VBUS |
 | A3 <-> GPIO 23     | GPIO 13 <-> D13 |
 | A4/D24 <-> GPIO 24 | GPIO 12 <-> D12 |
